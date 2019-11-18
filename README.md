@@ -1,3 +1,5 @@
+this is a fork from github.com/cakturk/go-netstat
+
 ### Usage:
 
 ```
@@ -20,21 +22,21 @@ Usage of ./go-netstat:
 ### Installation:
 
 ```
-$ go get github.com/cakturk/go-netstat
+$ go get github.com/pavelblossom/go-netstat
 ```
 
 ### Using as a library
 #### [Godoc](https://godoc.org/github.com/pavelblossom/go-netstat/netstat)
 #### Getting the package
 ```
-$ go get github.com/cakturk/go-netstat/netstat
+$ go get github.com/pavelblossom/go-netstat/netstat
 ```
 
 ```go
 import (
 	"fmt"
 
-	"github.com/cakturk/go-netstat/netstat"
+	"github.com/pavelblossom/go-netstat/netstat"
 )
 
 func displaySocks() error {
