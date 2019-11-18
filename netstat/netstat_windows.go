@@ -1,4 +1,4 @@
-// +build amd64
+// +build windows
 
 package netstat
 
@@ -123,8 +123,8 @@ func (pid WinPid) Process(snp ProcessSnapshot) *Process {
 		return nil
 	}
 	return &Process{
-		pid:  int(pid),
-		name: snp.ProcPIDToName(uint32(pid)),
+		Pid:  int(pid),
+		Name: snp.ProcPIDToName(uint32(pid)),
 	}
 }
 
